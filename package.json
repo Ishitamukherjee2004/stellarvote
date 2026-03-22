@@ -1,0 +1,14 @@
+{
+  "name": "stellar-voting-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build:contract": "make build",
+    "test:contract": "make test",
+    "deploy:contract": "make deploy",
+    "gen-bindings": "make bindings",
+    "dev": "npm run dev --prefix frontend",
+    "build:ui": "npm run build --prefix frontend",
+    "preview": "npm run preview --prefix frontend"
+  }
+}

@@ -1,21 +1,21 @@
-# StellarVote 🗳️
+# Stellar Smart Contract Rust 🦀 🗳️
 
 A fully functional, decentralized Web3 voting application built on the Stellar Soroban blockchain. This dApp allows users to create transparent polls and cast secure votes, featuring a premium glassmorphic frontend and an optimized Rust smart contract.
 
 ## Deployment Details
 
 *   **Voting Contract ID:** `CDSUVGMRJIOUGEQTSHDUQDZZRX3RRRATIRMLN6WWX7QQK3LDDNYDSSJK`
-*   **Hello World Contract ID:** `CB6PTH3TE2CL35IWGGP2MFQSEMATW66I44BF5SWGR3O2GL4CPWDIAJO2`
+*   **Hello World Contract ID:** `CCLGUIOIAVKNMKDMWXLD75C2ITAPSOSTI4QJRIRD4FWAYU2CH6POWIRQ`
 *   **Network:** Stellar Testnet
 *   **On-Chain Verification (Voting):** [View on Stellar Laboratory](https://laboratory.stellar.org/#explorer?resource=contracts&endpoint=details&values=eyJwYXJhbXMiOnsiYWRkcmVzcyI6IkNEU1VWR01SSklPVUdFUVRTSERVUURaWlJYM1JSUkFUSVJNTjZXV1g3UVFLM0xER05ZRFNTSkIifSwibmV0d29yayI6InRlc3RuZXQifQ%3D%3D)
 
 ## Dashboard Preview
 
-![Dashboard Screenshot](./dashboard.png)
+![Dashboard Screenshot](./assets/dashboard.png)
 
 ## On-Chain Verification
 
-![Stellar Lab Screenshot](./stellarLab.png)
+![Stellar Lab Screenshot](./assets/stellarLab.png)
 
 ## Features ✨
 

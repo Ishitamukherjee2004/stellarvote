@@ -3,16 +3,16 @@
 all: build
 
 build:
-	cargo build --target wasm32-unknown-unknown --release
+	stellar contract build
 
 test:
 	cargo test
 
 deploy: build
-	soroban contract deploy --wasm target/wasm32-unknown-unknown/release/voting.wasm --source-account $$(soroban config identity address MyIdentity) --network testnet
+	stellar contract deploy --wasm target/wasm32-unknown-unknown/release/voting_contract.wasm --source-account MyIdentity --network testnet
 
 bindings:
-	soroban contract bindings typescript --wasm target/wasm32-unknown-unknown/release/voting.wasm --output-dir frontend/src/contracts/voting --overwrite
+	stellar contract bindings typescript --wasm target/wasm32-unknown-unknown/release/voting_contract.wasm --output-dir frontend/src/contracts/voting --overwrite
 
 clean:
 	cargo clean

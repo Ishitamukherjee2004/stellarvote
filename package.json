@@ -1,12 +1,13 @@
 {
-  "name": "stellar-voting-app",
+  "name": "stellar-smart-contract-rust",
   "version": "1.0.0",
+  "description": "A standard Stellar (Soroban) smart contract project template for Rust.",
   "private": true,
   "scripts": {
-    "build:contract": "make build",
-    "test:contract": "make test",
-    "deploy:contract": "make deploy",
-    "gen-bindings": "make bindings",
+    "build:contract": "stellar contract build",
+    "test:contract": "cargo test",
+    "deploy:contract": "stellar contract deploy --wasm target/wasm32-unknown-unknown/release/voting_contract.wasm --source-account MyIdentity --network testnet",
+    "gen-bindings": "stellar contract bindings typescript --wasm target/wasm32-unknown-unknown/release/voting_contract.wasm --output-dir frontend/src/contracts/voting --overwrite",
     "dev": "npm run dev --prefix frontend",
     "build:ui": "npm run build --prefix frontend",
     "preview": "npm run preview --prefix frontend"

@@ -5,7 +5,6 @@ A fully functional, decentralized Web3 voting application built on the Stellar S
 ## Deployment Details
 
 *   **Voting Contract ID:** `CDSUVGMRJIOUGEQTSHDUQDZZRX3RRRATIRMLN6WWX7QQK3LDDNYDSSJK`
-*   **Hello World Contract ID:** `CCLGUIOIAVKNMKDMWXLD75C2ITAPSOSTI4QJRIRD4FWAYU2CH6POWIRQ`
 *   **Network:** Stellar Testnet
 *   **On-Chain Verification (Voting):** [View on Stellar Laboratory](https://laboratory.stellar.org/#explorer?resource=contracts&endpoint=details&values=eyJwYXJhbXMiOnsiYWRkcmVzcyI6IkNEU1VWR01SSklPVUdFUVRTSERVUURaWlJYM1JSUkFUSVJNTjZXV1g3UVFLM0xER05ZRFNTSkIifSwibmV0d29yayI6InRlc3RuZXQifQ%3D%3D)
 
